@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<warnings>
+  <warning>
+    <code>123</code>
+    <message>faga</message>
+    <field>field</field>
+  </warning>
+  <warning>
+    <code>123</code>
+    <message>faga</message>
+    <field>field</field>
+  </warning>
+</warnings>

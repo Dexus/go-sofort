@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<new_transaction>
+  <transaction>deeg</transaction>
+  <payment_url>http://...</payment_url>
+  <warnings>
+    <warning>
+      <code>123</code>
+      <message>faga</message>
+      <field>field</field>
+    </warning>
+    <warning>
+      <code>123</code>
+      <message>faga</message>
+      <field>field</field>
+    </warning>
+  </warnings>
+</new_transaction>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<multipay>
+  <project_id>53245</project_id>
+  <interface_version>pn_test_1</interface_version>
+  <language_code>de</language_code>
+  <timeout>12</timeout>
+  <email_customer>email_customer</email_customer>
+  <phone_customer>dd</phone_customer>
+  <user_variables>
+    <user_variable>test</user_variable>
+    <user_variable>test</user_variable>
+  </user_variables>
+  <sender>
+    <holder>name</holder>
+    <iban>name</iban>
+    <bic>name</bic>
+    <account_number>name</account_number>
+    <bank_code>name</bank_code>
+    <country_code>name</country_code>
+  </sender>
+  <amount>2.20</amount>
+  <currency_code>EUR</currency_code>
+  <reasons>
+        <reason>Testueberweisung</reason>
+        <reason>-TRANSACTION-</reason>
+  </reasons>
+  <success_url>https://www.example.com/payment/success.php?trx=-TRANSACTION-</success_url>
+  <success_link_redirect>1</success_link_redirect>
+  <abort_url>https://www.example.com/payment/abort.php</abort_url>
+  <timeout_url>https://www.example.com/payment/abort.php</timeout_url>
+  <notification_urls>
+        <notification_url>https://www.example.com/notify.php</notification_url>
+        <notification_url notify_on="received,loss">https://www.example.com/erp/payment_notification.php</notification_url>
+  </notification_urls>
+  <notification_emails>
+        <notification_email>https://www.example.com/notify.php</notification_email>
+        <notification_email notify_on="received,loss">https://www.example.com/erp/payment_notification.php</notification_email>
+  </notification_emails>
+  <su>
+    <customer_protection>1</customer_protection>
+  </su>
+  <beneficiary>
+    <identifier>fe</identifier>
+    <country_code>de</country_code>
+  </beneficiary>
+</multipay>
